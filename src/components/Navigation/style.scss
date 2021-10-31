@@ -1,0 +1,13 @@
+nav {
+    background-color: cadetblue;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    & > ul {
+        list-style-type: none;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
